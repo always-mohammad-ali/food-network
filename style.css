@@ -1,5 +1,6 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 .section1{
     display:flex;
@@ -27,8 +28,90 @@ body{
     padding:10px 25px;
     border-radius: 14px;
     font-weight: 700;
-    
+    margin-bottom: 100px;
 }
 .span-1{
     color:gold;
+}
+.section2{
+    display:flex;
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+
+}
+.img2{
+    width:140%;
+    margin-left: 100px;
+    
+}
+.another-h1{
+    margin-top: 75px;
+    color: grey;
+    font-size: 45px;
+    margin-left: 350px;
+}
+.p-1{
+    width: 55%;
+    margin-left: 350px;
+    margin-bottom: 90px;
+}
+.a-link2{
+    margin-left: 350px;
+    margin-top:100px;
+    color:white;
+    background-image:linear-gradient(rgba(255, 217, 0, 0.438),gold);
+    padding:10px 25px;
+    border-radius: 14px;
+    font-weight: 700;
+   
+    
+}
+.recipes{
+    text-align: center;
+    font-size: 45px;
+    color: grey;
+    
+}
+.recipes2{
+    text-align: center;
+    
+}
+.img{
+    display:flex;
+    
+    width: 99%;
+    ;
+    
+}
+.img div{
+    width: 30%;
+    
+    margin-left: 45px;
+    
+}
+
+.img img{
+    width: 190%;
+}
+.hey{
+    box-shadow: 2px 2px 4px grey;
+    width: 50%;
+    border: 2px solid grey;
+    border-radius: 10px;
+}
+.review{
+    display: flex;
+}
+.okay{
+    margin:10px 20px 20px;
+    border: 5px solid white;
+    padding: 40px;
+    width: 50%;
+    }
+footer{
+    color: white;
+    background-color: black;
+    margin: 20px 30px 20px;
+    text-align: center;
 }
